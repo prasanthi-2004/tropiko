@@ -1,0 +1,809 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 25px;
+     
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.mone{
+    background-color: whitesmoke;
+    padding-bottom: 150px;
+}
+#logo h3{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    text-transform: none;
+    padding-top: 30px;
+    
+}
+.nav .right ul li{
+    display: inline;
+    margin-right: 20px;
+    margin-left: 30px;
+    
+    
+}
+.nav .right ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.nav .right ul li button{
+    color: white;
+    background-color: orangered;
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+}
+.nav .left{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.m{
+    display: flex;
+    margin-top: 60px;
+}
+.m .t1{
+   
+    
+    height: 400px;
+    width: 1000px;
+    padding-top: 50px;
+    line-height: 40px;
+    margin-right: 40px;
+}
+.m .t2 img{
+    width: 500px;
+    margin-top: 60px;
+}
+.m .t1 h1{
+    font-size: 80px;
+    margin-bottom: 30px;
+    line-height: 80px;
+}
+.m .t1 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+#b1{
+    width: 150px;
+    height: 40px;
+    color:white;
+    background-color: orangered;
+    border: none;
+    
+    margin-top: 30px;
+    margin-right: 20px;
+    font-size: medium;
+}
+#b1:hover{
+    color: orangered;
+    background-color: white;
+    border: 1px solid orangered;
+}
+#b2:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+#b2{
+     width: 150px;
+    height: 40px;
+    color:white;
+    background-color: black;
+    border: none;
+    font-size: medium;
+}
+.tmain h3{
+    
+    font-size: 35px;
+}
+.tmain{
+    text-align: center;
+    margin-top: 50px;
+    line-height: 40px;
+}
+.tmain p{
+    font-size: 20px;
+}
+.Fruits{
+    display: flex;
+}
+.Fruits .orange{
+    border: 1px solid gray;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px 20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    
+    
+}
+.Fruits .orange:hover{
+    border-top: 5px solid orangered;
+}
+
+.Fruits .orange h3{
+    font-size: 26px;
+    padding: 10px 0px;
+    color: orangered;
+}
+.Fruits .orange p{
+    font-size: 18px;
+}
+.Fruits .grapes p{
+    font-size: 18px;
+
+}
+.Fruits .grapes h3{
+    font-size: 26px;
+    padding: 10px 0px;
+    color: orangered;
+
+}
+.Fruits .gauva p{
+    font-size: 18px;
+}
+.Fruits .gauva h3{
+    font-size: 26px;
+    padding: 10px 0px;
+    color: orangered;
+}
+.Fruits .grapes{
+    border: 1px solid gray;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px 20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.Fruits .grapes:hover{
+    border-top:5px solid orangered;
+}
+
+.Fruits .gauva{
+    border: 1px solid gray;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.Fruits .gauva:hover{
+     border-top:5px solid orangered;
+
+}
+.button{
+    text-align: center;
+}
+.button button{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin: 30px 0px;
+    font-size: 15px;
+}
+.button button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.im{
+    text-align: center;
+    margin-top: 30px;
+    line-height: 35px;
+    margin-bottom: 60px;
+}
+.im h2{
+    font-size: 30px;
+}
+.im p{
+    font-size: 20px;
+}
+.mum{
+    display: flex;
+    margin-bottom: 40px;
+}
+.mum2{
+    display: flex;
+    margin-bottom: 100px;
+}
+.mum3{
+    display: flex;
+    margin-bottom: 100px;
+}
+.mum .two img{
+    height: 150px;
+    width: 240px;
+}
+.mum2 .two img{
+   
+    height: 200px;
+    width: 100px;
+    margin-right: 50px;
+    
+}
+.mum3 .two img{
+    height: 200px;
+    width: 250px;
+}
+.mum .one{
+    margin-right: 60px;
+   
+   
+}
+.mum2 .one{
+    margin-right: 200px;
+    
+   
+}
+.mum3 .one{
+    margin-right: 60px;
+   
+}
+.mum .one h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.mum2 .one h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.mum3 .one h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.mum .one p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.mum2 .one p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.mum3 .one p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.mum .one button{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin: 30px 0px;
+    font-size: 15px;
+
+}
+.mum .one button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.mum2 .one button{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin: 30px 0px;
+    font-size: 15px;
+
+}
+.mum2 .one button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.mum3 .one button{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin: 30px 0px;
+    font-size: 15px;
+
+}
+.mum3 .one button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.pp{
+    text-align: center;
+    font-size: 40px;
+    border: 2px solid black;
+    padding: 180px 0px;
+    background-image: url('tasty-image.png');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin-bottom: 80px;
+}
+.ll{
+    text-align: center;
+}
+.ll h2{
+    font-size: 40px;
+}
+.ll p{
+    font-size: 20px;
+    margin-bottom: 80px;
+    line-height: 30px;
+}
+.ss img{
+    height: 300px;
+    margin-left: 590px;
+    margin-bottom: 40px;
+}
+.mbot{
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 200px;
+
+}
+.cbot{
+    margin-bottom: 200px;
+    background-image: url('orange-dish.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: -150px;
+    background-size: 215px;
+   
+}
+.cbot input{
+    width: 700px;
+    height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid gray;
+    font-size: 20px;
+}
+#send{
+    background-color: orangered;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+   
+}
+.map{
+    margin-top: -100px;
+}
+.para{
+    display: flex;
+    justify-content: space-between;
+}
+.para .one{
+    
+    width: 100px;
+    height: 300px;
+    text-align:center;
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+.para .one p{
+    font-size: 18px;
+    text-align:justify;
+}
+.para .two{
+   
+    width: 100px;
+    height: 300px;
+    text-align:center;
+    font-size: 20px;
+    line-height: 30px;
+   
+}
+.para .two p{
+    font-size: 18px;
+    text-align:justify;
+}
+.para .three{
+    
+    width: 100px;
+    height: 300px;
+    text-align:justify;
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+.para .three p{
+    font-size: 18px;
+    text-align:justify;
+}
+
+.para .four i{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#bbbb{
+    width:220px;
+    height: 25px;
+    margin: 10px 0px;
+}
+#tttt{
+    width:130px;
+    height: 35px;
+   color: white;
+   background-color: orangered;
+    margin-top: 5px;
+    border: none;
+    
+    font-size: 15px;
+
+
+}
+.footer{
+    text-align: center;
+    background-color: #efeded;
+   height: 40px;
+   padding-top: 20px;
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width:468px) {
+    
+    .m{
+        display: block;
+    }
+    .m .t1{
+        width: 300px;
+        
+      
+    }
+    
+    .m .t1 h1{
+        width:350px;
+        font-size: 55px;
+        text-align: center;
+        
+    }
+    .m .t1 p{
+        margin-top: -20px;
+        width: 300px;
+        text-align: center;
+        margin-left: 10px;
+        
+    }
+    .m .t2 img{
+        margin-top: 250px;
+        width: 350px;
+        
+       
+        
+    }
+    #b1{
+        width:130px;
+        margin-top: 20px;
+        margin-left:10px;
+    }
+    #b2{
+        width: 130px;
+    }
+    .tmain{
+        width: 350px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .tmain h3{
+    
+       margin-left: 40px;
+       font-size: 35px;
+       margin-bottom: 10px;
+    }
+    .tmain p{
+        font-size: 20px;
+        margin-left: 30px;
+        line-height: 30px;
+    }
+    .nano{
+        width: 350px;
+
+    }
+    .Fruits .orange{
+        width: 300px;
+    }
+    .Fruits .grapes{
+        width: 300px;
+    }
+    .Fruits .gauva{
+        width: 300px;
+    }
+  
+    .mum .one{
+        margin-top: 10px;
+        width: 350px;
+        margin-left: 20px;
+    }
+    .mum .one button{
+        margin-left: 100px;
+
+    }
+    .mum .one h3{
+        font-size: 35px;
+        margin-left: 40px;
+    }
+    .mum .one p{
+        font-size: 20px;
+        margin-bottom: 20px;
+        
+        text-align: center;
+    }
+    .mum2{
+        width: 350px;
+        margin-top: 70px;
+    }
+    .mum3{
+        width: 350px;
+        margin-top: -60px;
+    }
+    .mum2 .one button{
+        margin-left: 100px;
+    }
+    .mum2 .one h3{
+        font-size: 35px;
+        margin-left: 40px;
+        width: 350px;
+        margin-top: -20px;
+        
+
+    }
+    .mum2 .one p{
+        font-size: 20px;
+        width: 350px;
+        text-align: center;
+    }
+    .mum3 .one h3{
+        width: 350px;
+        font-size: 35px;
+        margin-left: 50px;
+        margin-top: -40px;
+        margin-bottom: 20px;
+    }
+    .mum3 .one p{
+        font-size: 20px;
+        width: 350px;
+        text-align: center;
+        margin-top: -20px;
+       
+    }
+    .mum3 .one button{
+        margin-left: 100px;
+        
+    }
+    .mum3 .two img{
+        margin-left: 70px;
+    }
+    .Fruits{
+        display: block;
+        width: 300px;
+    }
+    
+    
+    .mum{
+        display: block;
+        
+    }
+    .mum .two{
+        width: 200px;
+        margin-left: -40px;
+
+    }
+    .mum .two img{
+        margin-left: 100px;
+    }
+    .mum2{
+        display: block;
+    }
+    .mum2 .two {
+       
+        margin-left: 120px;
+
+    }
+    .mum3{
+        display: block;
+    }
+    .mum3 .two{
+        width: 200px;
+
+    }
+    .cbot{
+        width: 400px;
+        margin-top:50px;
+    }
+    .cbot h2{
+        font-size: 35px;
+    }
+  
+    .cbot input{
+        width: 150px;
+       
+    }
+    .para{
+        display: block;
+        
+    }
+    .para .one{
+        width: 100px;
+        height: 400px;
+        margin-left: 100px;
+        margin-bottom: 60px;
+        
+    }
+    .para .two{
+        width: 100px;
+        height: 400px;
+        margin-left: 100px;
+        margin-bottom: 60px;
+    }
+    .para .three{
+        width: 100px;
+        height: 400px;
+        margin-left: 100px;
+        margin-bottom: 60px
+        
+    }
+    .para .four{
+        width: 300px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .map{
+        width: 400px;
+        margin-top:-120px;
+
+    }
+    .footer{
+        margin-top: 20px;
+        width: 450px;
+        font-size: 10px;
+    }
+    .pp{
+        width: 450px;
+        margin-top: -60px;
+    }
+    .im{
+        width: 350px;
+        text-align: center;
+        margin-left: 45px;
+        margin-top: 40px;
+    }
+    .im h2{
+        font-size: 35px;
+        margin-bottom: 10px;
+       
+        
+    }
+    .im p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .ll{
+        width: 400px;
+        margin-top: -40px;
+
+    }
+    .ll h2{
+        font-size: 35px;
+        margin-left: 30px;
+    }
+    .ll p{
+        font-size: 20px;
+        text-align: center;
+        margin-left: 30px;
+    }
+    .mbot{
+        width: 350px;
+        margin-top: -20px;
+
+    }
+    .mbot h2{
+        font-size: 35px;
+    }
+    .mbot p{
+        font-size: 20px;
+    }
+    .map iframe{
+        width: 450px;
+    }
+    .ss img{
+        margin-left: 70px;
+        width: 300px;
+        margin-top: -50px;
+    }
+    .nav{
+        display:block;
+
+        
+       
+    }
+    .nav .left{
+        display:flex;
+        width: 200px;
+        margin-left: 70px;
+        
+    }
+   
+    .nav .right ul li{
+        display: none;
+        
+    }
+    .nav{
+        margin-bottom: -80px;
+    }
+    .pp h1{
+        font-size: 35px;
+    }
+    .para .one h3{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .para .one p{
+        font-size: 20px;
+       
+    }
+    .para .two h3{
+        font-size: 35px;
+        margin-bottom: 20px;
+        margin-top: -150px;
+    }
+    .para .two p{
+        font-size: 20px;
+       
+    }
+    .para .three h3{
+        font-size: 35px;
+        margin-bottom: 20px;
+        margin-top: -140px;
+    }
+    .para .three p{
+        font-size: 20px; 
+    }
+     .para .four{
+        width: 350px;
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: -135px;
+    }
+    .color{
+        background-color: whitesmoke;
+        width: 450px;
+        padding-bottom: 20px;
+    }
+   .button{
+    margin-left: 100px;
+    margin-bottom: 20px;
+   }
+    
+   
+}
